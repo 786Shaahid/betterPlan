@@ -1,0 +1,60 @@
+body{
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;   
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(12, 12, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#registrationContainer{
+    width: 25rem;
+   height: 30rem;
+   background-color: white;
+   border-radius: 2rem;
+   box-shadow: inset 3px 2px 2px rgb(172, 172, 203);
+}
+h1{
+    text-align: center;
+}
+#formData{
+     width: 90%;
+     height: vh;
+     margin:  40px auto; 
+     padding: 20px 4rem;    
+     line-height: 20px;
+
+}
+
+input{
+    width: 15rem;
+    padding: 4px;
+    font-size: 15px;
+
+}
+label{
+    font-weight: 500;
+    font-size: 20px;
+    font-family: sans-serif 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#button{
+    width: 16rem;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    font-size: large;
+    font-weight: 600;
+}
+#button:active{
+      background-color: rgb(29, 29, 123);
+      font-size: larger;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    
+}
